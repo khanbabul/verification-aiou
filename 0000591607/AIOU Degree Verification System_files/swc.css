@@ -1,0 +1,64 @@
+.text-primary-green {
+  color: #177317;
+}
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #26262c;
+  display: none;
+}
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: auto;
+  display: none;
+  z-index: 9999;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#boxes #dialog {
+  width: 966px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  font-size: 15pt;
+}
+
+#boxes .window .close {
+  color: #F00;
+  opacity: 0.2;
+}
+
+#boxes .window .close:hover {
+  color: #000;
+  opacity: 0.5;
+}
+
+#boxes .window .links {
+  color: #000;
+}
+
+#boxes .window .links:hover {
+  color: #F00;
+}
+
+.agree:hover {
+  background-color: #D1D1D1;
+}
+
+.popupoption:hover {
+  background-color: #D1D1D1;
+  color: green;
+}
+
+.popupoption2:hover {
+  color: red;
+}

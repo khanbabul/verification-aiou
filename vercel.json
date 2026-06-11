@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/challan_std-rid=0000591607/",
+      "destination": "/challan_std-rid=0000591607/index.html"
+    },
+    {
+      "source": "/0000591607/",
+      "destination": "/0000591607/index.html"
+    }
+  ]
+}
